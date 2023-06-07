@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Electric Edgar's - Reviews</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style-review.css" rel="stylesheet">
+    </head>
+    <body>
+    <!--
+        TODO:
+        - Page should allow the user to cycle through reviews
+    -->
+        <section class="container">
+          <header class="heading-container">
+            <img src="https://tier4marketing.com/wp-content/uploads/2015/10/Client-Logo-Placeholder.png"
+                            alt="placeholder logo" class="navbar-logo">
+            <div class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="reviews.html" class="nav-link">
+                            <span class="current-page" style="color: white;">Reviews</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+       <section class="reviews-container" id="reviews-container">
+        <h2 class="review-opener">Look what our satisfied customers say about us!</h2>
+        <section class="reviews-content">
+          <button id="next-left" class="next-btn" style="font-size: 2em;"><</button>
+          <section id="reviews-content" class="reviews"></section>
+          <button id="next-right" class="next-btn" style="font-size: 2em;">></button>
+          </section>
+        </section>
+        <section class="socials">
+          <section class="facebook">
+              <a href="https://www.facebook.com" target="_blank">
+                  <img src="https://www.wordstream.com/wp-content/uploads/2021/07/facebook-logo-stats-2018-1.png" alt="facebook" class="social-logo">
+              </a>
+          </section>
+          <section class="instagram">
+              <a href="https://www.instagram.com" target="_blank">
+                  <img src="https://image.telanganatoday.com/wp-content/uploads/2022/04/Instagram-slashes-payouts-to-creators-by-70-on-Reels_V_jpg--442x260-4g.webp?sw=412&dsz=442x260&iw=412&p=false&r=2.625" alt="instagram" class="social-logo">
+              </a>
+          </section>
+          <section class="youtube">
+              <a href="https://www.youtube.com" target="_blank">
+                  <img src="https://s2.static.brasilescola.uol.com.br/be/2023/01/logo-do-youtube.jpg" alt="youtube" class="social-logo">
+              </a>
+          </section>
+      </section>
+      <footer class="end-content">
+        <p class="end-content-text">Copyright Electric Edgar's LLC</p>
+        <p class="end-content-text">Located in Anywhere, USA</p>
+        <p class="end-content-text">(555) 555-5555</p>
+    </footer>
+      <script src="scripts/cycle-reviews.js"></script>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Electric Edgar's - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style-home.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+            TODO:
+            - Services offered
+            - Click through reviews
+            - Finish footer
+        -->
+    <section class="container">
+        <header class="heading-container">
+            <img src="https://tier4marketing.com/wp-content/uploads/2015/10/Client-Logo-Placeholder.png"
+                            alt="placeholder logo" class="navbar-logo">
+            <div class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="home.html" class="nav-link">
+                            <span class="current-page" style="color: white;">Home</span>
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="reviews.html" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="content">
+            <section class="opening">
+                <section class="front-text">
+                    <h1 class="front-main">Electric Edgar's Electrician Services</h1>
+                    <p class="front-caption">Licensed and Insured</caption>
+                    <p class="front-caption">(555) 555-5555 Anywhere, USA</p>
+                </section>
+            </section>
+            <section class="service-container">
+                <section class="service-title">
+                    <h2>Services we offer</h2>
+                </section>
+                <section class="services">
+                    <section class="service">
+                        <p class="service-text">
+                            <span class="service-text-inner">Install and maintain electrical power</span>
+                        </p>
+                        <img src="https://landmarkelectricinc.com/wp-content/uploads/2019/10/electrical-system-installation-PA438WX.jpg"
+                            alt="maintain" class="service-image" draggable="false">
+                    </section>
+                    <section class="service">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cc9d678797f74514e09078f/1623355803065-NDB9Y9WUO8K6XYXFE5YP/mission-valley-electrician.jpg?format=1000w"
+                            alt="inspecting" class="service-image" draggable="false">
+                        <p class="service-text">Inspect electrical systems</p>
+                    </section>
+                    <section class="service">
+                        <p class="service-text">Troubleshoot malfunctions</p>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5cc9d678797f74514e09078f/1623355803065-NDB9Y9WUO8K6XYXFE5YP/mission-valley-electrician.jpg?format=1000w"
+                            alt="troubleshooting" class="service-image" draggable="false">
+                    </section>
+                </section>
+            </section>
+            <section class="contact-container">
+                <section class="contact-header">
+                    <p style="font-weight: bold">Want to request a quote? Have any questions? Contact us here!</p>
+                </section>
+                <section class="contact-form">
+                    <form id="contact-submit">
+                        <section class="name-label">
+                            <p>Full name</p>
+                        </section>
+                        <section class="contact-form-name">
+                            <label for="contact-first-name">
+                                <input type="text" id="contact-first-name" class="name-input" placeholder="First" required>
+                            </label>
+                            <label for="contact-last-name">
+                                <input type="text" id="contact-last-name" class="name-input" placeholder="Last" required>
+                            </label>
+                        </section>
+                        <section class="contact-form-email"> 
+                            <label for="contact-email">Email address:
+                                <input type="email" id="contact-email" class="contact-input" required>
+                            </label>
+                        </section>
+                        <section class="contact-form-phone">
+                            <label for="contact-phone">Phone number:
+                                <input type="tel" id="contact-phone" class="contact-input">
+                            </label>
+                        </section>
+                        <section class="contact-form-location">
+                            <label for="contact-location">Where are you located?
+                                <select name="contact-location" id="contact-location" class="contact-input">
+                                    <option disabled selected value="">(Select a state)</option>
+                                </select>
+                            </label>
+                        </section>
+                        <section class="contact-form-inquiry-type">
+                            <p>What would you like to talk to us about?</p>
+                            <section class="radio-label-group">
+                                <input type="radio" name="contact-inquiry" id="form-quote">
+                                <label for="contact-inquiry">Quote</label>
+                                <section class="calendar-container" id="calendar-container">
+                                    <label for="calendar-option">When can we visit?
+                                        <input type="date" name="calendar-option" class="contact-input" id="calendar">
+                                    </label>
+                                </section>
+                            </section>  
+                            <section class="radio-label-group">
+                                <input type="radio" name="contact-inquiry" id="form-review">
+                                <label for="contact-inquiry">Review</label>
+                            </section>  
+                        </section>
+                        <section class="contact-form-textbox">
+                            <label for="contact-form-inquiry">Leave your inquiry here!
+                                <textarea name="contact-form-inquiry" id="contact-form-inquiry" rows="10" class="contact-form textbox"></textarea>
+                            </label>
+                        </section>
+                        <section class="contact-form-submit-btn">
+                            <input type="submit">
+                        </section>
+                    </form>
+                </section>
+            </section>
+    </section>
+    </main>
+    <footer class="end-content">
+        <p class="end-content-text">Copyright Electric Edgar's LLC</p>
+        <p class="end-content-text">Located in Anywhere, USA</p>
+        <p class="end-content-text">(555) 555-5555</p>
+    </footer>
+    </section>
+    <script src="scripts/location-options.js"></script>
+    <script src="scripts/radio-check.js">
+    </script>
+</body>
+
+</html>
